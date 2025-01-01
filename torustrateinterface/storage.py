@@ -16,7 +16,7 @@
 import binascii
 from typing import Any, Optional
 
-from substrateinterface.exceptions import StorageFunctionNotFound
+from torustrateinterface.exceptions import StorageFunctionNotFound
 
 from scalecodec import ScaleBytes, GenericMetadataVersioned, ss58_decode
 from scalecodec.base import ScaleDecoder, RuntimeConfigurationObject, ScaleType

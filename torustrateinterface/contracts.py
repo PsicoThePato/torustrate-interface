@@ -21,11 +21,11 @@ from typing import Optional
 
 from .utils import version_tuple
 
-from substrateinterface.exceptions import ExtrinsicFailedException, DeployContractFailedException, \
+from torustrateinterface.exceptions import ExtrinsicFailedException, DeployContractFailedException, \
     ContractReadFailedException, ContractMetadataParseException, StorageFunctionNotFound
 from scalecodec.base import ScaleBytes, ScaleType
 from scalecodec.types import GenericContractExecResult
-from substrateinterface.base import SubstrateInterface, Keypair, ExtrinsicReceipt
+from torustrateinterface.base import SubstrateInterface, Keypair, ExtrinsicReceipt
 
 __all__ = ['ContractExecutionReceipt', 'ContractMetadata', 'ContractCode', 'ContractInstance', 'ContractEvent']
 
