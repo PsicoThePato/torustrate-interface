@@ -1,8 +1,8 @@
 [tool.poetry]
 name = "torustrateinterface"
 version = "0.1.0"
-description = "Your project description"
-authors = ["Your Name <your@email.com>"]
+description = "substrate-interface fork"
+authors = ["PsicoThePato jmomcontato@gmail.com"]
 
 [tool.poetry.dependencies]
 python = ">=3.10,<4.0"
